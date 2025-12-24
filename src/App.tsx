@@ -1,7 +1,6 @@
 import { Hero } from './components/Hero';
 import { WhyJoin } from './components/WhyJoin';
 import { Benefits } from './components/Benefits';
-import { MembershipScheme } from './components/MembershipScheme';
 import { WhoShouldJoin } from './components/WhoShouldJoin';
 import { Management } from './components/Management';
 import { RealOpportunity } from './components/RealOpportunity';
@@ -14,7 +13,6 @@ export default function App() {
       <Hero />
       <WhyJoin />
       <Benefits />
-      <MembershipScheme />
       <WhoShouldJoin />
       <Management />
       <RealOpportunity />
