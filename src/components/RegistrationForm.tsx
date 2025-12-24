@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { UserPlus, Mail, Phone, MapPin, Briefcase, Send, Upload, Calendar, CreditCard, Building2, User } from 'lucide-react';
+import { UserPlus, Phone, MapPin, Send, Upload, Calendar, CreditCard, Building2, User } from 'lucide-react';
 
 export function RegistrationForm() {
   const [formData, setFormData] = useState({
