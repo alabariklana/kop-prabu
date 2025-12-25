@@ -1,13 +1,9 @@
 import { ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Hero() {
-  const scrollToForm = () => {
-    const formElement = document.getElementById('registration-form');
-    if (formElement) {
-      formElement.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  const navigate = useNavigate();
 
   return (
     <>
@@ -47,9 +43,9 @@ export function Hero() {
             </p>
 
             <button
-              onClick={scrollToForm}
-              className="inline-flex items-center gap-2 bg-white text-emerald-700 px-8 py-4 rounded-full hover:bg-emerald-50 transition-all transform hover:scale-105 shadow-xl"
-            >
+        onClick={() => navigate('/daftar')}
+        className="inline-flex items-center gap-2 bg-white text-emerald-700 px-8 py-4 rounded-full hover:bg-emerald-50 transition-all transform hover:scale-105 shadow-xl"
+      >
               <span>Daftar Sekarang</span>
               <ArrowRight className="w-5 h-5" />
             </button>

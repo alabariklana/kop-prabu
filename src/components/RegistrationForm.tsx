@@ -104,7 +104,7 @@ export function RegistrationForm() {
               <UserPlus className="w-8 h-8 text-white" />
             </div>
           </div>
-          <h2 className="mb-4 text-gray-900">
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">
             Formulir Pendaftaran Anggota
           </h2>
           <p className="text-lg text-gray-600">
@@ -322,7 +322,7 @@ export function RegistrationForm() {
                   </div>
                   <div className="flex justify-between items-center">
                     <span>Simpanan Wajib (3 Bulan Pertama):</span>
-                    <span className="font-semibold">Rp 150.000,- / bulan</span>
+                    <span className="font-semibold">Rp 150.000,-</span>
                   </div>
                   <div className="text-sm text-gray-600 mt-4 pt-4 border-t border-blue-200">
                     Total Pendaftaran awal Rp. 250.000,- dilaksanakan dengan cara:
